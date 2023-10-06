@@ -11,10 +11,6 @@ namespace LinkedListDemo
     {
         static void Main(string[] args)
         {
-            LinkedList<int> ints = new LinkedList<int>();
-            ints.AddLast(1);
-            ints.AddLast(2);
-            ints.AddLast(3);
 
             ColoredCustomLinkedList customlist= new ColoredCustomLinkedList();
             customlist.AddLast(1);
