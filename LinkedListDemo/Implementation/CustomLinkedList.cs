@@ -139,6 +139,35 @@ namespace LinkedListDemo.Implementation
                 n = n.Next;
             }
         }
+        public virtual void SortedInsert(int e)
+        {
+            Node newnode = new Node(e, null);
+            Node current = this.head;
+            Node previous = this.head;
+
+            if (isEmpty())
+                this.head = newnode;
+            else
+            {
+                while(current != null && e >= current.Element) 
+                {
+                    previous = current;
+                    current = current.Next;
+                }
+                if(current == this.head)
+                {
+                    newnode.Next = current;
+                    this.head = newnode;
+                }
+                else
+                {
+                    newnode.Next = previous.Next;
+                    previous.Next = newnode;
+                }
+                this.size = this.size + 1;
+            }
+
+        }
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

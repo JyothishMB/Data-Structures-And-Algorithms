@@ -38,6 +38,10 @@ namespace LinkedListDemo.Implementation
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             base.Remove(e);
         }
-
+        public override void SortedInsert(int e)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            base.SortedInsert(e);
+        }
     }
 }

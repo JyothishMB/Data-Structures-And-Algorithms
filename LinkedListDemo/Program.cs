@@ -31,6 +31,21 @@ namespace LinkedListDemo
             customlist.Remove(2);
             Console.WriteLine(customlist.ToString());
 
+
+            ColoredCustomLinkedList sortedlist = new ColoredCustomLinkedList();
+
+            sortedlist.SortedInsert(10);
+            Console.WriteLine(sortedlist.ToString());
+            sortedlist.SortedInsert(8);
+            Console.WriteLine(sortedlist.ToString());
+            sortedlist.SortedInsert(7);
+            Console.WriteLine(sortedlist.ToString());
+            sortedlist.SortedInsert(70);
+            Console.WriteLine(sortedlist.ToString());
+            sortedlist.SortedInsert(1);
+            Console.WriteLine(sortedlist.ToString());
+
+            Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
     }
