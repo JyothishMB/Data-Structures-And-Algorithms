@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackDemo", "StackDemo\Stac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListDemo", "LinkedListDemo\LinkedListDemo.csproj", "{416DBD7D-BC31-4CBB-8ADA-54033014710C}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "BinaryTreeDemo", "BinaryTreeDemo\BinaryTreeDemo.esproj", "{B83896D7-F168-4E24-8368-7EEB46396C34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{416DBD7D-BC31-4CBB-8ADA-54033014710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416DBD7D-BC31-4CBB-8ADA-54033014710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416DBD7D-BC31-4CBB-8ADA-54033014710C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83896D7-F168-4E24-8368-7EEB46396C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83896D7-F168-4E24-8368-7EEB46396C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83896D7-F168-4E24-8368-7EEB46396C34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B83896D7-F168-4E24-8368-7EEB46396C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83896D7-F168-4E24-8368-7EEB46396C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83896D7-F168-4E24-8368-7EEB46396C34}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
